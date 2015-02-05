@@ -1,0 +1,12 @@
+performance?dimensions=strategy_name&filter=campaign_id%3D100500&metrics=impressions&time_rollup=by_day&time_window=last_7_day
+video?start_date=2013-09-25&end_date=2013-10-26&time_rollup=by_month&filter=campaign_id%3D131099&dimensions=campaign_id%2Cstrategy_id&metrics=clicks%2Cvideo_close%2Cvideo_collapse&page_limit=10&page_offset=0
+technology?dimensions=organization_name%2Ccampaign_id%2Cbrowser_name%2Cos_name%2Cconnection_type%2Cconnection_speed&filter=campaign_id%3D110819&time_rollup=all&time_window=last_7_days
+day_part?dimensions=organization_name%2Ccampaign_id%2Cweekday_id%2Cday_part_name%2Cday_part_id&filter=campaign_id%3D110819&time_rollup=all&time_window=last_7_days
+pulse?start_date=2015-01-07&end_date=2015-01-13&time_rollup=by_day&filter=campaign_id%3D105904&dimensions=campaign_id%2Cstrategy_id&metrics=clicks%2Cimpressions%2Ctotal_conversions&page_limit=10&page_offset=2
+watermark?dimensions=organization_id%2Corganization_name%2Ccampaign_id%2Ccampaign_name&filter=campaign_id%3D170472&time_rollup=all&time_window=last_100_days&metrics=watermark_impressions%2Cwatermark_spend
+geo?filter=campaign_id%3D125907&dimensions=campaign_id%2Ccountry_code%2Cregion_code%2Cmetro_name%2C&time_rollup=all&time_window=yesterday
+site_transparency?dimensions=campaign_id%2Ccampaign_name%2Cstrategy_id,strategy_name%2Csite_domain&filter=campaign_id%3D100500&metrics=clicks,total_spend,media_cost_cpa&time_rollup=all&time_window=last_7_days
+reach_frequency?dimensions=organization_name%2Ccampaign_id%2Cfrequency_bin&filter=campaign_id%3D110819%26frequency_bin=11%2B&time_rollup=all&time_window=yesterday&metrics=uniques
+video_usd?start_date=2013-09-25&end_date=2013-10-26&time_rollup=by_month&filter=campaign_id%3D131099%26campaign_currency_code%3DUSD&dimensions=campaign_id%2Cstrategy_id&metrics=clicks%2Cvideo_close%2Cvideo_collapse&page_limit=10&page_offset=0
+performance_usd?start_date=2013-09-25&end_date=2014-09-26&time_rollup=by_month&filter=campaign_id%3D100500%26campaign_currency_code%3DUSD&dimensions=campaign_id%2Cstrategy_id&metrics=clicks%2Cimpressions%2Ctotal_conversions&page_limit=10&page_offset=2
+performance_aggregated?dimensions=campaign_id%2Ccampaign_name%2Cstrategy_id,strategy_name&filter=campaign_id%3D100500&metrics=clicks,total_spend&time_rollup=all&time_window=last_7_days
